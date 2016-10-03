@@ -26,7 +26,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         int i = r.nextInt(100);
         //textView.setText(message);
         String m = Integer.toString(i);
-        textView.setText("Hi "+name+",\n"+m+"%  YES. \nAll the best making your decision");}
+        textView.setText("Hi "+name+",\n"+m+"%  YES. \nAll the best");}
         else{
             textView.setText("Please enter a question with a '?' in the end for a valid answer");
         }
