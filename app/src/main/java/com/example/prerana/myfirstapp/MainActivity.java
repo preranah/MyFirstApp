@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         }**/
     }
 
-    /** Called when the user clicks the Send button */
+    //******************* Called when the user clicks the Ask Question button*********************
     public void sendMessage(View view) {
 
         //***************Creates an Intent that sends it to another activity**********
