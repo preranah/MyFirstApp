@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">My First App</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
+    <string name="app_name">Questions Answered</string>
+    <string name="name">Enter your name</string>
+    <string name="edit_message">Enter a question</string>
+    <string name="button_send">Ask Question</string>
+    <string name="server_client_id">705767467966-kntp62lti94gvd55it63ke99d0da8t1d.apps.googleusercontent.com</string>
 </resources>

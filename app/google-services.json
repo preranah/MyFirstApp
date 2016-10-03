@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "705767467966",
+    "project_id": "myfirstapp-228a1"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705767467966:android:f08dd8cc4ace8432",
+        "android_client_info": {
+          "package_name": "com.example.prerana.myfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705767467966-iv04qppqg6qc7sdpcv1052f1kc6np85q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prerana.myfirstapp",
+            "certificate_hash": "184044EF430184B022A4CC5AD82926264208FD1E"
+          }
+        },
+        {
+          "client_id": "705767467966-mm7dg0h77b0273ull31t6ougdknnqkv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2vCFraTSa7NnTBmfDlT-JM2mrRxaTqWM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

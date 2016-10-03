@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
+    <TextView
+        android:id="@+id/text_id"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Ask any YES or NO question and your question shall be answered"
+        android:textSize="25dp"/>
+    <EditText android:id="@+id/name"
+        android:layout_weight="10"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/text_id"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:hint="@string/name" />
     <EditText android:id="@+id/edit_message"
-        android:layout_weight="1"
-        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:hint="@string/edit_message" />
     <Button
         android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit_message"
         android:layout_height="wrap_content"
         android:text="@string/button_send"
         android:onClick="sendMessage" />
-</LinearLayout>
+    <!--com.google.android.gms.common.SignInButton
+        android:layout_width="wrap_content"
+        android:id="@+id/signin_button"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"></com.google.android.gms.common.SignInButton-->
+
+</RelativeLayout>
