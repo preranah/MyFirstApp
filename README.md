@@ -1,4 +1,4 @@
-#Decision Maker App
+#Decision Maker App - EC601 A2 - Assignment 2
 
 Helps in making a decision. 
 
