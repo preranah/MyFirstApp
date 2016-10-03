@@ -19,9 +19,13 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener{
+
+//****************QUESTION and the NAME variables ***************************
+
     public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
     public final static String NAME = "com.example.myfirstapp.NAME";
 
+//*****************Google Sign in Declaration**************************
     private SignInButton btnLogin;
     private GoogleSignInOptions googleSignInOptions;
     private GoogleApiClient mGoogleApiClient;
@@ -31,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//**************Google Sign in Intergration **********************************
 
         /** GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
@@ -60,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         });
     }
 
+         //**********Activity when signin button is pressed *****************
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -76,6 +83,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     /** Called when the user clicks the Send button */
     public void sendMessage(View view) {
+
+        //***************Creates an Intent that sends it to another activity**********
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
         EditText nameText = (EditText) findViewById(R.id.name);
